@@ -1,6 +1,7 @@
 .wrapper1,
 .wrapper2,
-.wrapper3 {
+.wrapper3,
+.wrapper4 {
     margin: 0 auto;
 }
 
@@ -317,4 +318,63 @@
 .grid-container3 > .yellow-26 {
     background-color: #E1B62B;
     grid-row: span 26;
+}
+
+/* Container 4 */
+.grid-container4 {
+    background-color: black;
+    width: 384px;
+    height: 384px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 36px 131px 115px 87px;
+    grid-template-rows: 157px 89px 109px 14px;
+    gap: 5px;
+}
+
+.grid-container4 > .item1 {
+    background-color: #C34920;
+    grid-column: span 2;
+}
+
+.grid-container4 > .item2 {
+    background-color: #EBEAEF;
+    grid-column: span 2;
+}
+
+.grid-container4 > .item3 {
+    background-color: #EBEAEF;
+    grid-column: span 2;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.grid-container4 > .item4 {
+    background-color: #EBEAEF;
+    grid-column: span 2;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.grid-container4 > .item5 {
+    background-color: #FCE08D;
+    grid-row: span 2;
+}
+
+.grid-container4 > .item6 {
+    background-color: #EBEAEF;
+    grid-row: span 2;
+}
+
+.grid-container4 > .item7 {
+    background-color: #1A549A;
+}
+
+.grid-container4 > .item8 {
+    background-color: #EBEAEF;
+       grid-row: span 2;
+}
+
+.grid-container4 > .item9 {
+    background-color: #EBEAEF;
 }
