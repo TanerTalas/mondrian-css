@@ -12,6 +12,44 @@
     <link rel="stylesheet" href="./styles.css">
     <link rel="stylesheet" href="./mondrinStyles.css">
 
+    <style>
+        body {
+            background-color: white;
+        }
+
+        .hero-background {
+            min-height: calc(100vh - 70px);
+            margin-top: 70px;
+            position: fixed;
+            z-index: -1;
+        }
+
+        .bg-slide img {
+            opacity: 1;
+        }
+
+        .arts-section {
+            text-align: center;
+        }
+
+        .art-item p {
+            margin-top: 16px;
+        }
+
+        footer {
+            border-radius: 0;
+            background-color: white;
+        }
+
+        /* ------------------------------------------ max-width: 1200px ------------------------------------------ */
+
+        @media (max-width: 1200px) {
+            .hero-background {
+                display: none;
+            }
+        }
+    </style>
+
 </head>
 
 <body>
@@ -27,426 +65,534 @@
 
             <div class="navbar-right">
                 <p>Mondrian</p>
-                <a href="#art-showcase-section">Arts</a>
-                <a href="#about-section">About</a>
+                <a href="./index.html">Homepage</a>
             </div>
         </div>
     </nav>
     <!-- navbar - end -->
 
+    <!-- background - start -->
+    <div class="hero-background">
+        <div class="bg-slide">
+            <img src="./images/mondrin-hero-background.svg" alt="">
+            <img src="./images/mondrin-hero-background.svg" alt="">
+            <img src="./images/mondrin-hero-background.svg" alt="">
+        </div>
+    </div>
+    <!-- background - end -->
+
     <!-- main - start -->
     <main>
-        
+        <div class="left-content">
+
+            <!-- about - start -->
+            <section id="about-section" style="margin-bottom: 64px;">
+                <div>
+                    <article>
+                        <h2>Piet Mondrian</h2>
+                        <p style="text-align: justify;">Piet Mondrian began his career painting traditional Dutch landscapes, but his vision soon
+                            moved
+                            beyond
+                            realism. Influenced by Theosophy and his search for spiritual harmony, he slowly reduced
+                            nature
+                            into
+                            its
+                            core shapes. Over time, he abandoned details, shadows and depth, focusing only on lines
+                            and flat
+                            colors.
+
+                            <br><br>Later in Paris, he encountered Cubism, a turning point that led him toward full
+                            abstraction.
+                            His
+                            paintings evolved into geometric compositions of black lines and primary red, blue and
+                            yellow.
+                            Mondrian
+                            believed art should reflect universal order instead of copying reality. His journey from
+                            windmills
+                            and
+                            trees to pure grids made him one of the most iconic figures of modernism.
+                        </p>
+                    </article>
+                </div>
+            </section>
+            <!-- about - end -->
+
+            <!-- arts - start -->
+            <section class="arts-section" id="arts-section">
+                <h1>Mondrian CSS Gallery</h1>
+                <p>Here are some artworks I enjoyed and recreated in CSS.</p>
+                <div class="arts">
+                    <div class="art-item" id="g1">
+                        <h3>Composition II in Red, Blue and Yellow</h3>
+                        <div class="grid-wrapper">
+                            <div class="grid-container1">
+                                <div class="item1"></div>
+                                <div class="item2"></div>
+                                <div class="item3"></div>
+                                <div class="item4"></div>
+                                <div class="item5"></div>
+                                <div class="item6"></div>
+                                <div class="item7"></div>
+                            </div>
+                        </div>
+                        <p><b>"Composition II in Red, Blue and Yellow"</b> is a key example of Mondrian's abstract
+                            style.
+                            Through black lines and blocks of red, blue, and yellow, the work seeks balance and harmony,
+                            capturing the spirit of modernism in a simple yet dynamic composition.</p>
+                    </div>
+                    <div class="art-item" id="g2">
+                        <h3>Composition in Red, Yellow, Blue and Black</h3>
+                        <div class="grid-wrapper">
+                            <div class="grid-container2">
+                                <div class="grid-container2-inner">
+                                    <div class="item1"></div>
+                                    <div class="item2"></div>
+                                    <div class="item3"></div>
+                                    <div class="item4"></div>
+                                    <div class="item5"></div>
+                                    <div class="item6"></div>
+                                    <div class="item7"></div>
+                                    <div class="item8"></div>
+                                    <div class="item9"></div>
+                                </div>
+                                <div class="grid-container2-outer">
+                                    <div class="item1"></div>
+                                    <div class="item2"></div>
+                                    <div class="item3"></div>
+                                    <div class="item4"></div>
+                                    <div class="item5"></div>
+                                    <div class="item6"></div>
+                                    <div class="item7"></div>
+                                    <div class="item8"></div>
+                                    <div class="item9"></div>
+                                    <div class="item10"></div>
+                                    <div class="item11"></div>
+                                    <div class="item12"></div>
+                                    <div class="item13"></div>
+                                    <div class="item14"></div>
+                                    <div class="item15"></div>
+                                    <div class="item16"></div>
+                                    <div class="item17"></div>
+                                    <div class="item18"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <p><b>"Composition in Red, Yellow, Blue and Black"</b> reflects Mondrian's pursuit of pure
+                            abstraction.
+                            The painting arranges bold primary colors with black lines on a white ground, creating a
+                            carefully balanced structure. Its clarity and precision reveal Mondrian's belief in order,
+                            rhythm, and universal harmony.</p>
+                    </div>
+                    <div class="art-item" id="g3">
+                        <h3>New York City</h3>
+                        <div class="grid-wrapper">
+                            <div class="grid-container3">
+                                <div class="item1"></div>
+                                <div class="item2"></div>
+                                <div class="item3"></div>
+                                <div class="item4 blue"></div>
+                                <div class="item5"></div>
+                                <div class="item6"></div>
+                                <div class="item7"></div>
+                                <div class="item8"></div>
+                                <div class="item9"></div>
+                                <div class="item10 yellow-26"></div>
+                                <div class="item11"></div>
+                                <div class="item12 yellow-26"></div>
+                                <div class="item13"></div>
+                                <div class="item14 yellow-26"></div>
+                                <div class="item15"></div>
+                                <div class="item16 yellow-26"></div>
+                                <div class="item17"></div>
+                                <div class="item18 yellow-26"></div>
+                                <div class="item19"></div>
+                                <div class="item20"></div>
+                                <div class="item21"></div>
+                                <div class="item22 yellow-26"></div>
+                                <div class="item23"></div>
+                                <div class="item24 red"></div>
+                                <div class="item25"></div>
+                                <div class="item26 red"></div>
+                                <div class="item27 red"></div>
+                                <div class="item28 red"></div>
+                                <div class="item29 red"></div>
+                                <div class="item30 red"></div>
+                                <div class="item31 red"></div>
+                                <div class="item32 red"></div>
+                                <div class="item33 red"></div>
+                                <div class="item34 red"></div>
+                                <div class="item35"></div>
+                                <div class="item36"></div>
+                                <div class="item37 blue"></div>
+                                <div class="item38"></div>
+                                <div class="item39"></div>
+                                <div class="item40"></div>
+                                <div class="item41"></div>
+                                <div class="item42"></div>
+                                <div class="item43"></div>
+                                <div class="item44"></div>
+                                <div class="item45"></div>
+                                <div class="item46"></div>
+                                <div class="item47"></div>
+                                <div class="item48 yellow"></div>
+                                <div class="item49 yellow-3"></div>
+                                <div class="item50 yellow"></div>
+                                <div class="item51 yellow"></div>
+                                <div class="item52 yellow"></div>
+                                <div class="item53 yellow"></div>
+                                <div class="item54 yellow"></div>
+                                <div class="item55 yellow"></div>
+                                <div class="item56 yellow"></div>
+                                <div class="item57 yellow"></div>
+                                <div class="item58 yellow"></div>
+                                <div class="item59"></div>
+                                <div class="item60"></div>
+                                <div class="item61 blue-3"></div>
+                                <div class="item62"></div>
+                                <div class="item63"></div>
+                                <div class="item64"></div>
+                                <div class="item65"></div>
+                                <div class="item66"></div>
+                                <div class="item67"></div>
+                                <div class="item68"></div>
+                                <div class="item69"></div>
+                                <div class="item70"></div>
+                                <div class="item71"></div>
+                                <div class="item72"></div>
+                                <div class="item73 blue"></div>
+                                <div class="item74 blue"></div>
+                                <div class="item75 blue"></div>
+                                <div class="item76 blue"></div>
+                                <div class="item77 blue"></div>
+                                <div class="item78 blue"></div>
+                                <div class="item79 blue"></div>
+                                <div class="item80 blue"></div>
+                                <div class="item81 blue"></div>
+                                <div class="item82 blue"></div>
+                                <div class="item83 blue"></div>
+                                <div class="item84 blue"></div>
+                                <div class="item85"></div>
+                                <div class="item86"></div>
+                                <div class="item87"></div>
+                                <div class="item88"></div>
+                                <div class="item89"></div>
+                                <div class="item90"></div>
+                                <div class="item91"></div>
+                                <div class="item92"></div>
+                                <div class="item93"></div>
+                                <div class="item94"></div>
+                                <div class="item95"></div>
+                                <div class="item96"></div>
+                                <div class="item97 yellow"></div>
+                                <div class="item98 yellow-3"></div>
+                                <div class="item99 yellow-3"></div>
+                                <div class="item100 yellow"></div>
+                                <div class="item101 yellow"></div>
+                                <div class="item102 yellow"></div>
+                                <div class="item103 yellow"></div>
+                                <div class="item104 yellow"></div>
+                                <div class="item105 yellow"></div>
+                                <div class="item106 yellow"></div>
+                                <div class="item107"></div>
+                                <div class="item108"></div>
+                                <div class="item109 blue-3"></div>
+                                <div class="item110"></div>
+                                <div class="item111"></div>
+                                <div class="item112 red-3"></div>
+                                <div class="item113"></div>
+                                <div class="item114"></div>
+                                <div class="item115"></div>
+                                <div class="item116"></div>
+                                <div class="item117"></div>
+                                <div class="item118"></div>
+                                <div class="item119"></div>
+                                <div class="item120"></div>
+                                <div class="item121"></div>
+                                <div class="item122 blue"></div>
+                                <div class="item123 blue"></div>
+                                <div class="item124 blue"></div>
+                                <div class="item125 blue"></div>
+                                <div class="item126 blue"></div>
+                                <div class="item127 blue"></div>
+                                <div class="item128 blue"></div>
+                                <div class="item129 blue"></div>
+                                <div class="item130 blue"></div>
+                                <div class="item131 blue"></div>
+                                <div class="item132"></div>
+                                <div class="item133 yellow"></div>
+                                <div class="item134"></div>
+                                <div class="item135"></div>
+                                <div class="item136"></div>
+                                <div class="item137"></div>
+                                <div class="item138"></div>
+                                <div class="item139"></div>
+                                <div class="item140"></div>
+                                <div class="item141"></div>
+                                <div class="item142"></div>
+                                <div class="item143"></div>
+                                <div class="item144"></div>
+                                <div class="item145"></div>
+                                <div class="item146 yellow-3"></div>
+                                <div class="item147 yellow"></div>
+                                <div class="item148 yellow"></div>
+                                <div class="item149 yellow"></div>
+                                <div class="item150 yellow"></div>
+                                <div class="item151 yellow-3"></div>
+                                <div class="item152 yellow"></div>
+                                <div class="item153"></div>
+                                <div class="item154"></div>
+                                <div class="item155"></div>
+                                <div class="item156 blue"></div>
+                                <div class="item157"></div>
+                                <div class="item158"></div>
+                                <div class="item159"></div>
+                                <div class="item160"></div>
+                                <div class="item161"></div>
+                                <div class="item162"></div>
+                                <div class="item163"></div>
+                                <div class="item164"></div>
+                                <div class="item165"></div>
+                                <div class="item166 red"></div>
+                                <div class="item167"></div>
+                                <div class="item168"></div>
+                                <div class="item169 yellow"></div>
+                                <div class="item170 yellow-3"></div>
+                                <div class="item171 yellow"></div>
+                                <div class="item172 yellow"></div>
+                                <div class="item173 yellow"></div>
+                                <div class="item174 yellow"></div>
+                                <div class="item175 yellow"></div>
+                                <div class="item176 yellow"></div>
+                                <div class="item177 yellow-3"></div>
+                                <div class="item178 yellow"></div>
+                                <div class="item179"></div>
+                                <div class="item180"></div>
+                                <div class="item181 blue"></div>
+                                <div class="item182"></div>
+                                <div class="item183"></div>
+                                <div class="item184"></div>
+                                <div class="item185"></div>
+                                <div class="item186"></div>
+                                <div class="item187"></div>
+                                <div class="item188"></div>
+                                <div class="item189"></div>
+                                <div class="item190 red-3"></div>
+                                <div class="item191"></div>
+                                <div class="item192"></div>
+                                <div class="item193 red"></div>
+                                <div class="item194"></div>
+                                <div class="item195 red"></div>
+                                <div class="item196 red"></div>
+                                <div class="item197 red"></div>
+                                <div class="item198 red"></div>
+                                <div class="item199 red"></div>
+                                <div class="item200 red"></div>
+                                <div class="item201 red"></div>
+                                <div class="item202 red"></div>
+                                <div class="item203"></div>
+                                <div class="item204"></div>
+                                <div class="item205 blue"></div>
+                                <div class="item206"></div>
+                                <div class="item207"></div>
+                                <div class="item208"></div>
+                                <div class="item209"></div>
+                                <div class="item210"></div>
+                                <div class="item211"></div>
+                                <div class="item212"></div>
+                                <div class="item213"></div>
+                                <div class="item214"></div>
+                                <div class="item215"></div>
+                                <div class="item216"></div>
+                                <div class="item217 yellow"></div>
+                                <div class="item218 yellow-3"></div>
+                                <div class="item219 yellow-3"></div>
+                                <div class="item220 yellow"></div>
+                                <div class="item221 yellow"></div>
+                                <div class="item222 yellow"></div>
+                                <div class="item223 yellow"></div>
+                                <div class="item224 yellow-3"></div>
+                                <div class="item225 yellow"></div>
+                                <div class="item226"></div>
+                                <div class="item227"></div>
+                                <div class="item228 blue"></div>
+                                <div class="item229"></div>
+                                <div class="item230"></div>
+                                <div class="item231 red"></div>
+                                <div class="item232"></div>
+                                <div class="item233"></div>
+                                <div class="item234"></div>
+                                <div class="item235"></div>
+                                <div class="item236"></div>
+                                <div class="item237"></div>
+                                <div class="item238 red"></div>
+                                <div class="item239"></div>
+                                <div class="item240"></div>
+                                <div class="item241 yellow"></div>
+                                <div class="item242 yellow-3"></div>
+                                <div class="item243 yellow-3"></div>
+                                <div class="item244 yellow"></div>
+                                <div class="item245 yellow"></div>
+                                <div class="item246 yellow"></div>
+                                <div class="item247 yellow"></div>
+                                <div class="item248 yellow-3"></div>
+                                <div class="item249 yellow"></div>
+                                <div class="item250"></div>
+                                <div class="item251"></div>
+                                <div class="item252 blue-3"></div>
+                                <div class="item253"></div>
+                                <div class="item254"></div>
+                                <div class="item255"></div>
+                                <div class="item256"></div>
+                                <div class="item257"></div>
+                                <div class="item258"></div>
+                                <div class="item259"></div>
+                                <div class="item260"></div>
+                                <div class="item261"></div>
+                                <div class="item262 red-3"></div>
+                                <div class="item263"></div>
+                                <div class="item264"></div>
+                                <div class="item265 blue"></div>
+                                <div class="item266 blue"></div>
+                                <div class="item267 blue"></div>
+                                <div class="item268 blue"></div>
+                                <div class="item269 blue"></div>
+                                <div class="item270 blue"></div>
+                                <div class="item271 blue"></div>
+                                <div class="item272 blue"></div>
+                                <div class="item273 blue"></div>
+                                <div class="item274 blue"></div>
+                                <div class="item275 blue"></div>
+                                <div class="item276 blue"></div>
+                                <div class="item277"></div>
+                                <div class="item278"></div>
+                                <div class="item279"></div>
+                                <div class="item280"></div>
+                                <div class="item281"></div>
+                                <div class="item282"></div>
+                                <div class="item283"></div>
+                                <div class="item284"></div>
+                                <div class="item285"></div>
+                                <div class="item286"></div>
+                                <div class="item287"></div>
+                                <div class="item288"></div>
+                                <div class="item289 yellow"></div>
+                                <div class="item290 yellow-3"></div>
+                                <div class="item291 yellow"></div>
+                                <div class="item292 yellow"></div>
+                                <div class="item293 yellow"></div>
+                                <div class="item294 yellow"></div>
+                                <div class="item295 yellow"></div>
+                                <div class="item296 yellow"></div>
+                                <div class="item297 yellow-3"></div>
+                                <div class="item298 yellow"></div>
+                                <div class="item299"></div>
+                                <div class="item300"></div>
+                                <div class="item301 blue"></div>
+                                <div class="item302"></div>
+                                <div class="item303"></div>
+                                <div class="item304"></div>
+                                <div class="item305"></div>
+                                <div class="item306"></div>
+                                <div class="item307"></div>
+                                <div class="item308"></div>
+                                <div class="item309"></div>
+                                <div class="item310 red"></div>
+                                <div class="item311"></div>
+                                <div class="item312"></div>
+                            </div>
+                        </div>
+                        <p><b>"New York City"</b> marks a vibrant shift in Mondrian’s style, using a dense grid of
+                            colored
+                            lines instead of solid blocks. Influenced by the rhythm of the city, the work feels dynamic
+                            and musical, reflecting movement, energy, and the pulse of modern urban life.</p>
+                    </div>
+                    <div class="art-item" id="g4">
+                        <h3>Composition C (No.III) with Red, Yellow and Blue</h3>
+                        <div class="grid-wrapper">
+                            <div class="grid-container4">
+                                <div class="item1"></div>
+                                <div class="item2"></div>
+                                <div class="item3"></div>
+                                <div class="item4"></div>
+                                <div class="item5"></div>
+                                <div class="item6"></div>
+                                <div class="item7"></div>
+                                <div class="item8"></div>
+                                <div class="item9"></div>
+                            </div>
+                        </div>
+                        <p><b>"Composition C (No.III) with Red, Yellow and Blue"</b> demonstrates Mondrian’s refined
+                            balance of
+                            primary colors and geometric structure. With black lines framing areas of red, yellow, blue,
+                            and white, the painting creates a calm yet precise harmony, showcasing his mature approach
+                            to pure abstraction.</p>
+                    </div>
+                    <div class="art-item" id="g5" style="margin-bottom: 64px;">
+                        <h3>No. VI/Composition No. II</h3>
+                        <div class="grid-wrapper">
+                            <div class="grid-container5">
+                                <div class="item1"></div>
+                                <div class="item2"></div>
+                                <div class="item3"></div>
+                                <div class="item4"></div>
+                                <div class="item5"></div>
+                                <div class="item6"></div>
+                                <div class="item7"></div>
+                                <div class="item8"></div>
+                                <div class="item9"></div>
+                                <div class="item10"></div>
+                                <div class="item11"></div>
+                                <div class="item12"></div>
+                                <div class="item13"></div>
+                                <div class="item14"></div>
+                                <div class="item15"></div>
+                                <div class="item16"></div>
+                                <div class="item17"></div>
+                                <div class="item18"></div>
+                                <div class="item19"></div>
+                                <div class="item20"></div>
+                                <div class="item21"></div>
+                                <div class="item22"></div>
+                                <div class="item23"></div>
+                                <div class="item24"></div>
+                                <div class="item25"></div>
+                                <div class="item26"></div>
+                            </div>
+                        </div>
+                        <p><b>"No. VI/Composition No. II"</b> is a clear example of Mondrian’s pursuit of pure form and
+                            color.
+                            Structured with bold black lines and carefully placed primary blocks, it reflects balance,
+                            clarity, and Mondrian’s commitment to abstraction.</p>
+                    </div>
+                </div>
+            </section>
+            <!-- arts - end -->
+        </div>
+
+        <div class="right-content">
+            <p style="font-size: 1.2rem; margin-bottom: 24px; font-weight: 500;">Arts</p>
+            <ul class="right-nav">
+                <li><a href="#g1">Composition II in Red, Blue and Yellow</a></li>
+                <li><a href="#g2">Composition in Red, Yellow, Blue and Black</a></li>
+                <li><a href="#g3">New York City</a></li>
+                <li><a href="#g4">Composition C (No.III) with Red, Yellow and Blue</a></li>
+                <li><a href="#g5">Composition C (No.III) with Red, Yellow and Blue</a></li>
+            </ul>
+        </div>
     </main>
     <!-- main - end -->
 
-    <div style="margin: 40px auto;" class="wrapper1">
-        <div class="grid-container1">
-            <div class="item1"></div>
-            <div class="item2"></div>
-            <div class="item3"></div>
-            <div class="item4"></div>
-            <div class="item5"></div>
-            <div class="item6"></div>
-            <div class="item7"></div>
-        </div>
-    </div>
-
-    <div style="margin: 40px auto;" class="grid-container2">
-        <div class="grid-container2-inner">
-            <div class="item1"></div>
-            <div class="item2"></div>
-            <div class="item3"></div>
-            <div class="item4"></div>
-            <div class="item5"></div>
-            <div class="item6"></div>
-            <div class="item7"></div>
-            <div class="item8"></div>
-            <div class="item9"></div>
-        </div>
-        <div class="grid-container2-outer">
-            <div class="item1"></div>
-            <div class="item2"></div>
-            <div class="item3"></div>
-            <div class="item4"></div>
-            <div class="item5"></div>
-            <div class="item6"></div>
-            <div class="item7"></div>
-            <div class="item8"></div>
-            <div class="item9"></div>
-            <div class="item10"></div>
-            <div class="item11"></div>
-            <div class="item12"></div>
-            <div class="item13"></div>
-            <div class="item14"></div>
-            <div class="item15"></div>
-            <div class="item16"></div>
-            <div class="item17"></div>
-            <div class="item18"></div>
-        </div>
-    </div>
-
-    <div style="margin: 40px auto;" class="wrapper3">
-        <div class="grid-container3">
-            <div class="item1"></div>
-            <div class="item2"></div>
-            <div class="item3"></div>
-            <div class="item4 blue"></div>
-            <div class="item5"></div>
-            <div class="item6"></div>
-            <div class="item7"></div>
-            <div class="item8"></div>
-            <div class="item9"></div>
-            <div class="item10 yellow-26"></div>
-            <div class="item11"></div>
-            <div class="item12 yellow-26"></div>
-            <div class="item13"></div>
-            <div class="item14 yellow-26"></div>
-            <div class="item15"></div>
-            <div class="item16 yellow-26"></div>
-            <div class="item17"></div>
-            <div class="item18 yellow-26"></div>
-            <div class="item19"></div>
-            <div class="item20"></div>
-            <div class="item21"></div>
-            <div class="item22 yellow-26"></div>
-            <div class="item23"></div>
-            <div class="item24 red"></div>
-            <div class="item25"></div>
-            <div class="item26 red"></div>
-            <div class="item27 red"></div>
-            <div class="item28 red"></div>
-            <div class="item29 red"></div>
-            <div class="item30 red"></div>
-            <div class="item31 red"></div>
-            <div class="item32 red"></div>
-            <div class="item33 red"></div>
-            <div class="item34 red"></div>
-            <div class="item35"></div>
-            <div class="item36"></div>
-            <div class="item37 blue"></div>
-            <div class="item38"></div>
-            <div class="item39"></div>
-            <div class="item40"></div>
-            <div class="item41"></div>
-            <div class="item42"></div>
-            <div class="item43"></div>
-            <div class="item44"></div>
-            <div class="item45"></div>
-            <div class="item46"></div>
-            <div class="item47"></div>
-            <div class="item48 yellow"></div>
-            <div class="item49 yellow-3"></div>
-            <div class="item50 yellow"></div>
-            <div class="item51 yellow"></div>
-            <div class="item52 yellow"></div>
-            <div class="item53 yellow"></div>
-            <div class="item54 yellow"></div>
-            <div class="item55 yellow"></div>
-            <div class="item56 yellow"></div>
-            <div class="item57 yellow"></div>
-            <div class="item58 yellow"></div>
-            <div class="item59"></div>
-            <div class="item60"></div>
-            <div class="item61 blue-3"></div>
-            <div class="item62"></div>
-            <div class="item63"></div>
-            <div class="item64"></div>
-            <div class="item65"></div>
-            <div class="item66"></div>
-            <div class="item67"></div>
-            <div class="item68"></div>
-            <div class="item69"></div>
-            <div class="item70"></div>
-            <div class="item71"></div>
-            <div class="item72"></div>
-            <div class="item73 blue"></div>
-            <div class="item74 blue"></div>
-            <div class="item75 blue"></div>
-            <div class="item76 blue"></div>
-            <div class="item77 blue"></div>
-            <div class="item78 blue"></div>
-            <div class="item79 blue"></div>
-            <div class="item80 blue"></div>
-            <div class="item81 blue"></div>
-            <div class="item82 blue"></div>
-            <div class="item83 blue"></div>
-            <div class="item84 blue"></div>
-            <div class="item85"></div>
-            <div class="item86"></div>
-            <div class="item87"></div>
-            <div class="item88"></div>
-            <div class="item89"></div>
-            <div class="item90"></div>
-            <div class="item91"></div>
-            <div class="item92"></div>
-            <div class="item93"></div>
-            <div class="item94"></div>
-            <div class="item95"></div>
-            <div class="item96"></div>
-            <div class="item97 yellow"></div>
-            <div class="item98 yellow-3"></div>
-            <div class="item99 yellow-3"></div>
-            <div class="item100 yellow"></div>
-            <div class="item101 yellow"></div>
-            <div class="item102 yellow"></div>
-            <div class="item103 yellow"></div>
-            <div class="item104 yellow"></div>
-            <div class="item105 yellow"></div>
-            <div class="item106 yellow"></div>
-            <div class="item107"></div>
-            <div class="item108"></div>
-            <div class="item109 blue-3"></div>
-            <div class="item110"></div>
-            <div class="item111"></div>
-            <div class="item112 red-3"></div>
-            <div class="item113"></div>
-            <div class="item114"></div>
-            <div class="item115"></div>
-            <div class="item116"></div>
-            <div class="item117"></div>
-            <div class="item118"></div>
-            <div class="item119"></div>
-            <div class="item120"></div>
-            <div class="item121"></div>
-            <div class="item122 blue"></div>
-            <div class="item123 blue"></div>
-            <div class="item124 blue"></div>
-            <div class="item125 blue"></div>
-            <div class="item126 blue"></div>
-            <div class="item127 blue"></div>
-            <div class="item128 blue"></div>
-            <div class="item129 blue"></div>
-            <div class="item130 blue"></div>
-            <div class="item131 blue"></div>
-            <div class="item132"></div>
-            <div class="item133 yellow"></div>
-            <div class="item134"></div>
-            <div class="item135"></div>
-            <div class="item136"></div>
-            <div class="item137"></div>
-            <div class="item138"></div>
-            <div class="item139"></div>
-            <div class="item140"></div>
-            <div class="item141"></div>
-            <div class="item142"></div>
-            <div class="item143"></div>
-            <div class="item144"></div>
-            <div class="item145"></div>
-            <div class="item146 yellow-3"></div>
-            <div class="item147 yellow"></div>
-            <div class="item148 yellow"></div>
-            <div class="item149 yellow"></div>
-            <div class="item150 yellow"></div>
-            <div class="item151 yellow-3"></div>
-            <div class="item152 yellow"></div>
-            <div class="item153"></div>
-            <div class="item154"></div>
-            <div class="item155"></div>
-            <div class="item156 blue"></div>
-            <div class="item157"></div>
-            <div class="item158"></div>
-            <div class="item159"></div>
-            <div class="item160"></div>
-            <div class="item161"></div>
-            <div class="item162"></div>
-            <div class="item163"></div>
-            <div class="item164"></div>
-            <div class="item165"></div>
-            <div class="item166 red"></div>
-            <div class="item167"></div>
-            <div class="item168"></div>
-            <div class="item169 yellow"></div>
-            <div class="item170 yellow-3"></div>
-            <div class="item171 yellow"></div>
-            <div class="item172 yellow"></div>
-            <div class="item173 yellow"></div>
-            <div class="item174 yellow"></div>
-            <div class="item175 yellow"></div>
-            <div class="item176 yellow"></div>
-            <div class="item177 yellow-3"></div>
-            <div class="item178 yellow"></div>
-            <div class="item179"></div>
-            <div class="item180"></div>
-            <div class="item181 blue"></div>
-            <div class="item182"></div>
-            <div class="item183"></div>
-            <div class="item184"></div>
-            <div class="item185"></div>
-            <div class="item186"></div>
-            <div class="item187"></div>
-            <div class="item188"></div>
-            <div class="item189"></div>
-            <div class="item190 red-3"></div>
-            <div class="item191"></div>
-            <div class="item192"></div>
-            <div class="item193 red"></div>
-            <div class="item194"></div>
-            <div class="item195 red"></div>
-            <div class="item196 red"></div>
-            <div class="item197 red"></div>
-            <div class="item198 red"></div>
-            <div class="item199 red"></div>
-            <div class="item200 red"></div>
-            <div class="item201 red"></div>
-            <div class="item202 red"></div>
-            <div class="item203"></div>
-            <div class="item204"></div>
-            <div class="item205 blue"></div>
-            <div class="item206"></div>
-            <div class="item207"></div>
-            <div class="item208"></div>
-            <div class="item209"></div>
-            <div class="item210"></div>
-            <div class="item211"></div>
-            <div class="item212"></div>
-            <div class="item213"></div>
-            <div class="item214"></div>
-            <div class="item215"></div>
-            <div class="item216"></div>
-            <div class="item217 yellow"></div>
-            <div class="item218 yellow-3"></div>
-            <div class="item219 yellow-3"></div>
-            <div class="item220 yellow"></div>
-            <div class="item221 yellow"></div>
-            <div class="item222 yellow"></div>
-            <div class="item223 yellow"></div>
-            <div class="item224 yellow-3"></div>
-            <div class="item225 yellow"></div>
-            <div class="item226"></div>
-            <div class="item227"></div>
-            <div class="item228 blue"></div>
-            <div class="item229"></div>
-            <div class="item230"></div>
-            <div class="item231 red"></div>
-            <div class="item232"></div>
-            <div class="item233"></div>
-            <div class="item234"></div>
-            <div class="item235"></div>
-            <div class="item236"></div>
-            <div class="item237"></div>
-            <div class="item238 red"></div>
-            <div class="item239"></div>
-            <div class="item240"></div>
-            <div class="item241 yellow"></div>
-            <div class="item242 yellow-3"></div>
-            <div class="item243 yellow-3"></div>
-            <div class="item244 yellow"></div>
-            <div class="item245 yellow"></div>
-            <div class="item246 yellow"></div>
-            <div class="item247 yellow"></div>
-            <div class="item248 yellow-3"></div>
-            <div class="item249 yellow"></div>
-            <div class="item250"></div>
-            <div class="item251"></div>
-            <div class="item252 blue-3"></div>
-            <div class="item253"></div>
-            <div class="item254"></div>
-            <div class="item255"></div>
-            <div class="item256"></div>
-            <div class="item257"></div>
-            <div class="item258"></div>
-            <div class="item259"></div>
-            <div class="item260"></div>
-            <div class="item261"></div>
-            <div class="item262 red-3"></div>
-            <div class="item263"></div>
-            <div class="item264"></div>
-            <div class="item265 blue"></div>
-            <div class="item266 blue"></div>
-            <div class="item267 blue"></div>
-            <div class="item268 blue"></div>
-            <div class="item269 blue"></div>
-            <div class="item270 blue"></div>
-            <div class="item271 blue"></div>
-            <div class="item272 blue"></div>
-            <div class="item273 blue"></div>
-            <div class="item274 blue"></div>
-            <div class="item275 blue"></div>
-            <div class="item276 blue"></div>
-            <div class="item277"></div>
-            <div class="item278"></div>
-            <div class="item279"></div>
-            <div class="item280"></div>
-            <div class="item281"></div>
-            <div class="item282"></div>
-            <div class="item283"></div>
-            <div class="item284"></div>
-            <div class="item285"></div>
-            <div class="item286"></div>
-            <div class="item287"></div>
-            <div class="item288"></div>
-            <div class="item289 yellow"></div>
-            <div class="item290 yellow-3"></div>
-            <div class="item291 yellow"></div>
-            <div class="item292 yellow"></div>
-            <div class="item293 yellow"></div>
-            <div class="item294 yellow"></div>
-            <div class="item295 yellow"></div>
-            <div class="item296 yellow"></div>
-            <div class="item297 yellow-3"></div>
-            <div class="item298 yellow"></div>
-            <div class="item299"></div>
-            <div class="item300"></div>
-            <div class="item301 blue"></div>
-            <div class="item302"></div>
-            <div class="item303"></div>
-            <div class="item304"></div>
-            <div class="item305"></div>
-            <div class="item306"></div>
-            <div class="item307"></div>
-            <div class="item308"></div>
-            <div class="item309"></div>
-            <div class="item310 red"></div>
-            <div class="item311"></div>
-            <div class="item312"></div>
-        </div>
-    </div>
-
-    <div style="margin: 40px auto;" class="wrapper4">
-        <div class="grid-container4">
-            <div class="item1"></div>
-            <div class="item2"></div>
-            <div class="item3"></div>
-            <div class="item4"></div>
-            <div class="item5"></div>
-            <div class="item6"></div>
-            <div class="item7"></div>
-            <div class="item8"></div>
-            <div class="item9"></div>
-        </div>
-    </div>
-
-    <div style="margin: 40px auto;" class="wrapper5">
-        <div class="grid-container5">
-            <div class="item1"></div>
-            <div class="item2"></div>
-            <div class="item3"></div>
-            <div class="item4"></div>
-            <div class="item5"></div>
-            <div class="item6"></div>
-            <div class="item7"></div>
-            <div class="item8"></div>
-            <div class="item9"></div>
-            <div class="item10"></div>
-            <div class="item11"></div>
-            <div class="item12"></div>
-            <div class="item13"></div>
-            <div class="item14"></div>
-            <div class="item15"></div>
-            <div class="item16"></div>
-            <div class="item17"></div>
-            <div class="item18"></div>
-            <div class="item19"></div>
-            <div class="item20"></div>
-            <div class="item21"></div>
-            <div class="item22"></div>
-            <div class="item23"></div>
-            <div class="item24"></div>
-            <div class="item25"></div>
-            <div class="item26"></div>
-        </div>
-    </div>
+    <!-- footer - start -->
+    <footer>
+        <ul class="footer-links">
+            <li><a href="./index.html">Homepage</a></li>
+            <li><a href="#arts-section">Arts</a></li>
+            <li><a href="#about-section">About</a></li>
+            <li><a href="https://tanertalas.github.io" target="_blank">Portfolio</a></li>
+        </ul>
+        <p>© 2025 Taner Talas</p>
+    </footer>
+    <!-- footer - start -->
 </body>
 
 </html>

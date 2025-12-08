@@ -120,7 +120,7 @@ body {
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
 }
 
-.hero-textarea h1 {
+h1 {
     font-size: 2.7rem;
     margin-bottom: 16px;
     font-weight: 600;
@@ -286,6 +286,77 @@ h2 {
 
 /* about - end */
 
+/* ----------------------- art page - start ---------------------- */
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 70px auto 0;
+    width: 100%;
+    max-width: 1200px;
+    border-left: 2px solid #00000025;
+    border-right: 2px solid #00000025;
+}
+
+.left-content {
+    background: #fff;
+    padding: 32px;
+}
+
+.right-content {
+    background: #f2f2f2;
+    position: sticky;
+    top: 70px;
+    align-self: start;
+    padding: 20px;
+    height: calc(100vh - 70px);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: end;
+}
+
+/* arts - start */
+
+.arts {
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+    gap: 46px;
+}
+
+.arts h3 {
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+/* arts - end */
+
+/* right content - start */
+
+.right-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    list-style: none;
+}
+
+.right-nav li a {
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: black;
+    transition: .20s;
+}
+
+.right-nav li a:hover {
+    color: rgb(99, 99, 99);
+}
+
+/* right content - end */
+
+/* ----------------------- art page - end ---------------------- */
+
 /* footer - start */
 
 footer {
@@ -331,16 +402,16 @@ footer {
 }
 
 @keyframes float {
-    0%   { 
-        transform: translateY(0); 
+    0% {
+        transform: translateY(0);
     }
 
-    50%  { 
-        transform: translateY(-10px); 
+    50% {
+        transform: translateY(-10px);
     }
 
-    100% { 
-        transform: translateY(0); 
+    100% {
+        transform: translateY(0);
     }
 }
 
@@ -365,6 +436,15 @@ footer {
     .about-section-inner img {
         width: 296px;
     }
+
+    .right-content {
+        display: none;
+    }
+
+    .left-content {
+        grid-column: span 2;
+    }
+
 }
 
 /* ------------------------------------------ Tablet ------------------------------------------ */
