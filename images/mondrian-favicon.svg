@@ -1,0 +1,37 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1078_4297)">
+<rect width="32" height="32" fill="black"/>
+<rect x="0.441406" y="-5.36328" width="6.33005" height="9.89071" fill="white"/>
+<rect x="7.5625" y="-12.4844" width="2.7694" height="13.4514" fill="white"/>
+<rect x="7.5625" y="30.2422" width="6.33005" height="13.4514" fill="white"/>
+<rect x="21.8057" y="30.2422" width="13.4514" height="13.4514" fill="white"/>
+<rect x="28.9268" y="16" width="13.4514" height="2.7694" fill="white"/>
+<rect x="21.8057" y="26.6836" width="13.4514" height="2.7694" fill="white"/>
+<rect x="21.8057" y="23.125" width="6.33005" height="2.7694" fill="white"/>
+<rect x="-3.11914" y="26.6836" width="17.012" height="2.7694" fill="white"/>
+<rect x="-3.11914" y="23.125" width="6.33005" height="2.7694" fill="white"/>
+<rect x="4.00293" y="12.4414" width="13.4514" height="2.7694" fill="white"/>
+<rect x="0.441406" y="5.32031" width="2.7694" height="17.012" fill="white"/>
+<rect x="4.00293" y="5.32031" width="6.33005" height="6.33005" fill="white"/>
+<rect x="7.5625" y="1.75781" width="6.33005" height="2.7694" fill="white"/>
+<rect x="21.8057" y="-8.92188" width="6.33005" height="13.4514" fill="white"/>
+<rect x="28.9268" y="-1.80078" width="13.4514" height="2.7694" fill="white"/>
+<rect x="28.9268" y="1.75781" width="2.7694" height="2.7694" fill="white"/>
+<rect x="28.9268" y="5.32031" width="6.33005" height="9.89071" fill="white"/>
+<rect x="11.123" y="5.32031" width="17.012" height="6.33005" fill="white"/>
+<rect x="14.6846" y="23.125" width="6.33005" height="9.89071" fill="white"/>
+<rect x="4.00293" y="16" width="9.89071" height="9.89071" fill="white"/>
+<rect x="18.2451" y="12.4414" width="9.89071" height="9.89071" fill="white"/>
+<rect x="11.123" y="-1.80078" width="2.7694" height="2.7694" fill="#006599"/>
+<rect x="-3.11914" y="30.2422" width="9.89071" height="9.89071" fill="#006599"/>
+<rect x="28.9268" y="19.5625" width="6.33005" height="6.33005" fill="#E31C0C"/>
+<rect x="14.6846" y="-1.80078" width="6.33005" height="6.33005" fill="#E31C0C"/>
+<rect x="14.6846" y="16" width="2.7694" height="6.33005" fill="#FFC702"/>
+</g>
+<rect x="0.5" y="0.5" width="31" height="31" stroke="black"/>
+<defs>
+<clipPath id="clip0_1078_4297">
+<rect width="32" height="32" fill="white"/>
+</clipPath>
+</defs>
+</svg>

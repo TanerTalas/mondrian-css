@@ -10,5 +10,5 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     cycle();
-    setInterval(cycle, 4500);
+    setInterval(cycle, 4000);
 });
