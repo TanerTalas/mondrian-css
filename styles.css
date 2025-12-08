@@ -140,10 +140,13 @@ h1 {
 
 /* art showcase - start */
 .art-showcase-section {
-    min-height: calc(100vh);
+    min-height: calc(100vh - 70px);
     text-align: center;
-    padding: 64px;
+    padding: 32px;
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 h2 {
@@ -250,7 +253,7 @@ h2 {
 /* about - start */
 
 .about-section {
-    min-height: calc(100vh);
+    min-height: calc(100vh - 70px);
     background-color: rgb(240, 240, 240);
     display: flex;
     justify-content: center;
